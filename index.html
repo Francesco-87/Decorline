@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   
-    <link rel="stylesheet" href="./resources/styles.css" />
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+    <link rel="stylesheet" href="./resources/css/home.css">
     <title>Decorline</title>
 </head>
 
@@ -18,7 +19,7 @@
     <header>       
             <div class="logo">
                 <!-- <a href="#home"><img src="./resources/img/Decorline Logo Design.png" alt="Decorline Logo" class="decorline-logo"/> </a> -->
-                 <a href="#home">
+                 <a href="#" data-page="home">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 600"preserveAspectRatio="none" width="100%" height="100%">
                             <image href="./resources/img/Decorline Logo Design.png" x="0" y="0" width="1500" height="600" preserveAspectRatio="none" />
                     </svg>
@@ -27,114 +28,17 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#about">Chi Siamo </a></li>
-                    <li><a href="#products">Servizi</a></li>
-                    <li><a href="#gallery">Galleria</a></li>
-                    <li><a href="#testimonials">Recensioni</a></li>
-                    <li><a href="#contact">Contatti</a></li>
+                    <li><a  href="#" data-page="about">Chi Siamo </a></li>
+                    <li><a  href="#" data-page="products">Servizi</a></li>                  
+                    <li><a href="#" data-page="gallery">Galleria</a></li>
+                    <li><a  href="#" data-page="testimonials">Recensioni</a></li>
+                    <li><a  href="#" data-page="contact">Contatti</a></li>
                 </ul>
             </nav>       
-        </header>    
-   
+        </header>     
        
-
-
-        <main>
-            <div class="overlay">
-                <div class="headline">
-                    <h1>Benvenuto nel mondo di Decorline</h1>
-                    <p>Ispirazione, colore e stile per ogni tipo di spazio —<br> dalla tua casa al tuo ufficio o locale.</p>
-                    <!-- <p>Ispirazione, colore e stile per ogni ambiente della tua casa.</p> -->
-                </div>
-                    
-                 <div class="container-base buttons">
-                    <button class="btn-home btn-primary" onclick="location.href='#service'">Scopri i nostri servizi</button>
-                    <button class="btn-home btn-secondary" onclick="location.href='#gallery'">Guarda           
-                 </div>   
-
-                <section class="core-values">
-                    <div class="value-pillar">
-                        <h3>Precisione</h3>
-                        <p>Ogni dettaglio conta. Lavoriamo con cura e attenzione.</p>
-                    </div>
-                    <div class="value-pillar">
-                        <h3>Creatività</h3>
-                        <p>Colori, finiture e idee per trasformare ogni spazio.</p>
-                    </div>
-                    <div class="value-pillar">
-                        <h3>Affidabilità</h3>
-                        <p>Rispettiamo tempi e promesse, sempre al tuo fianco.</p>
-                    </div>
-                </section>
-
-                <div class="service">
-                    <h2 id="service">I nostri servizi</h2>
-                    <div class="service-wrapper">
-                        <div class="service-item">
-                            <h3>Tinteggiatura d`Interni ed Esterni</h3>                      
-                            <img src="./resources/img/Tinteggiatura.webp" alt="Tinteggiatura" class="service-icon">
-                            <p>Muri, soffitti e facciate con finiture di qualità professionale.</p>
-                        </div>                  
-                        <div class="service-item">
-                            <h3>Pareti Personalizzate su Misura</h3>
-                            <img src="./resources/img/Pareti_Personalizzate.jpg" alt="Pareti Personalizzate" class="service-icon">
-                            <p>Soluzioni creative e su progetto: loghi, motivi, scritte, effetti visivi unici.</p>
-                        </div> 
-                        <div class="service-item">
-                            <h3>Decorazioni Murali Artistiche</h3>
-                            <img src="./resources/img/Decorazioni_Murali.jpg" alt="Decorazioni Murali Artistiche" class="service-icon">
-                            <p>Tecniche decorative come spatolato, stucco veneziano, velature e molto altro.</p>
-                        </div> 
-                        <div class="service-item">
-                            <h3>Carta da Parati e Rivestimenti</h3>
-                            <img src="./resources/img/Carta_Parati.jpg" alt="Carta da Parati e Rivestimenti" class="service-icon">
-                            <p>Applicazione precisa di wallpaper classici, moderni e di design personalizzato.</p>
-                        </div> 
-                        <div class="service-item">
-                            <h3>Verniciature Speciali</h3>
-                            <img src="./resources/img/Verniciature_Speciali.jpg" alt="Verniciature Speciali" class="service-icon">
-                            <p>Trattamenti per legno, metallo, mobili e superfici particolari.</p>
-                        </div> 
-                        <div class="service-item">
-                            <h3>Restyling e Rinnovo Ambienti</h3>
-                            <img src="./resources/img/Restyling.webp" alt="Restyling e Rinnovo Ambienti" class="service-icon">
-                            <p>Rinfresco e restauro estetico di spazi vissuti o da rinnovare.</p>
-                        </div> 
-                    </div>
-                </div> 
-                <div class="testimonials">
-                    <h2 id="testimonials">Cosa dicono i nostri clienti</h2>
-                    <div class="testimonial-wrapper">
-                        <div class="testimonial-item">
-                            <p>"Decorline ha trasformato la mia casa! Professionalità e creatività al top!"</p>
-                            <span>- Maria Rossi</span>
-                        </div>
-                        <div class="testimonial-item">
-                            <p>"Servizio impeccabile, risultati che superano le aspettative. Consigliatissimi!"</p>
-                            <span>- Luca Bianchi</span>
-                        </div>
-                        <div class="testimonial-item">
-                            <p>"Un team di veri artisti! Le pareti parlano da sole."</p>
-                            <span>- Elena Verdi</span>
-                        </div>
-                        <div class="testimonial-item">
-                            <p>"Un team di veri artisti! Le pareti parlano da sole."</p>
-                            <span>- Elena Verdi</span>
-                        </div>
-                    </div>
-
-                    <svg class="wave-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                        <path d="M0,50 Q250,0 500,50 T1000,50" 
-                                fill="none" 
-                                stroke="#003366" 
-                                stroke-width="8" 
-                                stroke-linecap="round" 
-                                stroke-linejoin="round"
-                                stroke-dasharray="1,4"
-                                opacity="0.4" />
-                    </svg>  
-                </div>    
-            </div>      
+        <main id="main-content">
+            
 
         </main>
         <footer>
@@ -148,7 +52,7 @@
             </address> -->
         </footer>
     
-    
+    <script src="./resources/JS/main.js"></script>
 </body>
 </html>
 
