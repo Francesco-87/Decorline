@@ -1,0 +1,49 @@
+<section class="about-us">
+  <div class="about-wrapper">
+    <div class="about-text">
+      <h2>Dove la Tradizione Incontra l'Innovazione</h2>
+      <p>
+        In <strong>Decorline</strong>, uniamo l’artigianato tradizionale alle tecniche moderne per dare vita a pareti e ambienti unici.
+        Che tu desideri il fascino senza tempo dello stucco classico o la pulizia delle finiture contemporanee, il nostro team colma il divario tra eredità e design.
+      </p>
+      <p>
+        Dalle texture applicate a mano tramandate da generazioni, alle soluzioni cromatiche più all’avanguardia e murales artistici:
+        crediamo che ogni parete possa raccontare una storia — la tua.
+      </p>
+    </div>
+
+    <div class="about-image">
+      <img src="../resources/img/BackgroundFight.png" alt="Stile di pittura classico e moderno">
+    </div>
+  </div>
+</section>
+
+
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 2rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1 1 50%;
+  font-size: 1.2rem;
+  color: #003366;
+}
+
+.about-image {
+  flex: 1 1 50%;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
