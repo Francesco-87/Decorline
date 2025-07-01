@@ -82,6 +82,26 @@ nav ul li a:hover{
     color: #FDF5E2;
 }
 
+
+/* Hamburger icon - hidden on large screens */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin: 1rem;
+  z-index: 1100;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background: #003366;
+  border-radius: 2px;
+}
+
 /* Main-Section*/
 main {
     
@@ -108,6 +128,42 @@ footer{
     background-color: #489FC2;
     color: #FDF5E2;
     text-align: center;   
-    
 
 }
+
+
+/* media query for smaller screens */
+/* Show hamburger and hide nav on small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: #489FC2;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  nav.open {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 1rem 0;
+  }
+
+  nav.open ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+
+

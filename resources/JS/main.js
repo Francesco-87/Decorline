@@ -12,6 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Hamburger Menu Toggle
+  const hamburger = document.getElementById("hamburger");
+  const nav = document.querySelector("nav");
+
+  if (hamburger && nav) {
+    hamburger.addEventListener("click", () => {
+      nav.classList.toggle("open");
+    });
+  }
+
   function loadPage(page) {
     fetch(`pages/${page}.html`)
       .then(response => {
