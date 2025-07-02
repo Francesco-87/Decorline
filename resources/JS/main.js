@@ -9,7 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       const page = link.getAttribute("data-page");
       loadPage(page);
+       // Close nav menu if open (for mobile/hamburger)
+    const nav = document.querySelector("nav");
+    if (nav.classList.contains("open")) {
+      nav.classList.remove("open");
     }
+  }
   });
 
   // Hamburger Menu Toggle
