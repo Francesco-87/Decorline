@@ -1,0 +1,21 @@
+:root{
+  
+  --color-primary: #FBF3E0;
+   --color-primary-hover: #FDF5E2;
+  --color-secondary: #489FC2;
+  --color-secondary-hover: #4FA9DC;
+  --color-h: #003366;
+ 
+/* refactor color-hover-primary*/
+
+  --color-secondary-background: rgba(255, 255, 255, 0.5);
+  --color-box-shadow: rgba(0, 0, 0, 0.15);
+  --color-element-text:#333;
+
+
+  --color-light: #fff;
+  --color-dark: #222;
+  --color-muted: #666666;
+}
+
+

@@ -2,7 +2,7 @@
 .products-section{
   text-align: center;
   padding: 4rem 2rem;
-  background-color: #FBF3E0;
+  background-color: var(--color-primary);
   color: #003366;
 }
 .products-section h2 {
@@ -16,11 +16,13 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+/* Product Card Styles */
+/*
 .product{
 
-}
+}*/
 .products-card {
-  background-color: #FFFFFF;
+  background-color: var(--color-light);
   border: 1px solid #E0E0E0;
   border-radius: 8px;
   padding: 1.5rem;
@@ -34,7 +36,7 @@
 }
 .products-card p {
   font-size: 1.3rem;
-  color: #666666;
+  color: var(--color-element-text);
 }
 
 .product-image {

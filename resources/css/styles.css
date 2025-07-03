@@ -26,7 +26,7 @@ header{
     justify-content: center;
     top: 0;
     width: 100%;
-    background-color: #489FC2;
+    background-color: var(--color-secondary);
     padding-top: 0.5rem;   
     padding-bottom: 0.1rem; 
     text-align: center;
@@ -79,7 +79,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     
-    color: #FDF5E2;
+    color: var(--hover-color, #FDF5E2); /* Use a CSS variable for hover color */
 }
 
 
@@ -98,7 +98,7 @@ nav ul li a:hover{
 .hamburger span {
   height: 3px;
   width: 100%;
-  background: #003366;
+  background: var(--color-h); /* Use a CSS variable for color */
   border-radius: 2px;
 }
 
@@ -108,7 +108,7 @@ main {
     display: flex;
     flex-direction: column;
     
-    background-color: #FBF3E0;
+    background-color: var(--color-primary);
     /* background-image: url(../img/BackgroundFight.png);
     background-size: contain;
     background-position: center top;
@@ -125,8 +125,8 @@ footer{
    
     bottom: 0;
     width: 100%;
-    background-color: #489FC2;
-    color: #FDF5E2;
+    background-color: var(--color-secondary);
+    color: var(--color-primary-hover);
     text-align: center;   
 
 }
@@ -142,7 +142,7 @@ footer{
   nav {
     display: none;
     flex-direction: column;
-    background-color: #489FC2;
+    background-color: var(--color-secondary);
     width: 100%;
     position: absolute;
     top: 100%;
