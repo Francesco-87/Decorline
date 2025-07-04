@@ -121,14 +121,28 @@ main {
 
 
 /* Footer section */
-footer{
-   
+footer{   
     bottom: 0;
     width: 100%;
+    font-size: 1.5rem;
     background-color: var(--color-secondary);
     color: var(--color-primary-hover);
-    text-align: center;   
+    text-align: center;  
 
+}
+footer span {
+    margin: 0;
+    padding: 1rem 0;
+    font-family: serif;
+}
+
+.CicconeSoftwareSolutions  {  
+    color: var(--color-h);  
+    font-family: serif;
+    text-decoration: none;    
+}
+.CicconeSoftwareSolutions:hover {
+    color: var(--color-primary-hover);
 }
 
 
