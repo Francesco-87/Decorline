@@ -30,32 +30,32 @@
                     <div class="service-wrapper">\r
                         <div class="service-item">\r
                             <h3>Tinteggiatura d’Interni ed Esterni</h3>                      \r
-                            <img src="/img/Tinteggiatura.webp" alt="Tinteggiatura" class="service-icon">\r
+                            <img src="img/Tinteggiatura.webp" alt="Tinteggiatura" class="service-icon">\r
                             <p>Muri, soffitti e facciate con finiture di qualità professionale.</p>\r
                         </div>                  \r
                         <div class="service-item">\r
                             <h3>Pareti Personalizzate su Misura</h3>\r
-                            <img src="/img/Pareti_Personalizzate.jpg" alt="Pareti Personalizzate" class="service-icon">\r
+                            <img src="img/Pareti_Personalizzate.jpg" alt="Pareti Personalizzate" class="service-icon">\r
                             <p>Soluzioni creative e su progetto: loghi, motivi, scritte, effetti visivi unici.</p>\r
                         </div> \r
                         <div class="service-item">\r
                             <h3>Decorazioni Murali Artistiche</h3>\r
-                            <img src="/img/Decorazioni_Murali.jpg" alt="Decorazioni Murali Artistiche" class="service-icon">\r
+                            <img src="img/Decorazioni_Murali.jpg" alt="Decorazioni Murali Artistiche" class="service-icon">\r
                             <p>Tecniche decorative come spatolato, stucco veneziano, velature e molto altro.</p>\r
                         </div> \r
                         <div class="service-item">\r
                             <h3>Carta da Parati e Rivestimenti</h3>\r
-                            <img src="/img/Carta_Parati.jpg" alt="Carta da Parati e Rivestimenti" class="service-icon">\r
+                            <img src="img/Carta_Parati.jpg" alt="Carta da Parati e Rivestimenti" class="service-icon">\r
                             <p>Applicazione precisa di wallpaper classici, moderni e di design personalizzato.</p>\r
                         </div> \r
                         <div class="service-item">\r
                             <h3>Verniciature Speciali</h3>\r
-                            <img src="/img/Verniciature_Speciali.jpg" alt="Verniciature Speciali" class="service-icon">\r
+                            <img src="img/Verniciature_Speciali.jpg" alt="Verniciature Speciali" class="service-icon">\r
                             <p>Trattamenti per legno, metallo, mobili e superfici particolari.</p>\r
                         </div> \r
                         <div class="service-item">\r
                             <h3>Restyling e Rinnovo Ambienti</h3>\r
-                            <img src="/img/Restyling.webp" alt="Restyling e Rinnovo Ambienti" class="service-icon">\r
+                            <img src="img/Restyling.webp" alt="Restyling e Rinnovo Ambienti" class="service-icon">\r
                             <p>Rinfresco e restauro estetico di spazi vissuti o da rinnovare.</p>\r
                         </div> \r
                     </div>\r
@@ -113,7 +113,7 @@
       \r
     </div>\r
     <div class="about-image">\r
-      <img src="/img/BackgroundFight.png" alt="Stile di pittura classico e moderno">\r
+      <img src="img/BackgroundFight.png" alt="Stile di pittura classico e moderno">\r
     </div>\r
   </div>\r
 </div>\r
@@ -131,13 +131,13 @@
         garantendo risultati uniformi e duraturi, sia per ambienti residenziali che commerciali.</p>\r
     </div>\r
     <div class="product-image">\r
-      <img src="/img/Tinteggiatura.webp" alt="Tinteggiatura d’Interni ed Esterni">\r
+      <img src="img/Tinteggiatura.webp" alt="Tinteggiatura d’Interni ed Esterni">\r
     </div>\r
   </div>\r
 \r
   <div class="product">\r
     <div class="product-image">\r
-      <img src="/img/Pareti_Personalizzate.jpg" alt="Decorazioni Murali Personalizzate">\r
+      <img src="img/Pareti_Personalizzate.jpg" alt="Decorazioni Murali Personalizzate">\r
     </div>\r
     <div class="products-card">\r
       <h3>Decorazioni Murali Personalizzate</h3>\r
@@ -156,13 +156,13 @@
         che richiedono un tocco di classe intramontabile.</p>\r
     </div>\r
     <div class="product-image">\r
-      <img src="/img/Pareti_Personalizzate.jpg" alt="Stucco Veneziano">\r
+      <img src="img/Pareti_Personalizzate.jpg" alt="Stucco Veneziano">\r
     </div>\r
   </div>\r
 \r
   <div class="product">\r
     <div class="product-image">\r
-      <img src="/img/Decorazioni_Murali.jpg" alt="Effetti Speciali e Texture">\r
+      <img src="img/Decorazioni_Murali.jpg" alt="Effetti Speciali e Texture">\r
     </div>\r
     <div class="products-card">\r
       <h3>Effetti Speciali e Texture</h3>\r
@@ -181,13 +181,13 @@
         adattabili a ogni stile e esigenza.</p>\r
     </div>\r
     <div class="product-image">\r
-      <img src="/img/Restyling.webp" alt="Carta da Parati">\r
+      <img src="img/Restyling.webp" alt="Carta da Parati">\r
     </div>\r
   </div>\r
 \r
   <div class="product">\r
     <div class="product-image">\r
-      <img src="/img/Carta_Parati.jpg" alt="Restyling Ambienti">\r
+      <img src="img/Carta_Parati.jpg" alt="Restyling Ambienti">\r
     </div>\r
     <div class="products-card">\r
       <h3>Restyling Ambienti e Consulenza Colore</h3>\r
@@ -205,13 +205,13 @@
         che ne esaltano l’estetica e ne aumentano la resistenza.</p>\r
     </div>\r
     <div class="product-image">\r
-      <img src="/img/Verniciature_Speciali.jpg" alt="Legno e Metallo">\r
+      <img src="img/Verniciature_Speciali.jpg" alt="Legno e Metallo">\r
     </div>\r
   </div>\r
 \r
   <div class="product">\r
     <div class="product-image">\r
-      <img src="/img/Pareti_Personalizzate.jpg" alt="Pareti Geometriche">\r
+      <img src="img/Pareti_Personalizzate.jpg" alt="Pareti Geometriche">\r
     </div>\r
     <div class="products-card">\r
       <h3>Pareti Geometriche e Design Contemporaneo</h3>\r
@@ -234,15 +234,15 @@
     <section class="hero-gallery">\r
       <div class="carousel-container">\r
         <div class="carousel-slide">\r
-          <img src="/img/Pareti_Personalizzate.jpg" alt="Project 1">\r
+          <img src="img/Pareti_Personalizzate.jpg" alt="Project 1">\r
           <h3>Elegant Interior Makeover</h3>\r
         </div>\r
         <div class="carousel-slide">\r
-          <img src="/img/Tinteggiatura.webp" alt="Project 2">\r
+          <img src="img/Tinteggiatura.webp" alt="Project 2">\r
           <h3>Classic Stucco Finish</h3>\r
         </div>\r
         <div class="carousel-slide">\r
-          <img src="/img/Verniciature_Speciali.jpg" alt="Project 3">\r
+          <img src="img/Verniciature_Speciali.jpg" alt="Project 3">\r
           <h3>Classic Stucco Finish</h3>\r
         </div>\r
 \r
@@ -257,22 +257,22 @@
       <div class="before-after-wrapper">\r
         <div class="before-after-pair">\r
           <div class="before">\r
-            <img src="/img/Pareti_Personalizzate.jpg" alt="Before living room">\r
+            <img src="img/Pareti_Personalizzate.jpg" alt="Before living room">\r
             <span>Prima</span>\r
           </div>\r
           <div class="after">\r
-            <img src="/img/Pareti_Personalizzate.jpg" alt="After living room">\r
+            <img src="img/Pareti_Personalizzate.jpg" alt="After living room">\r
             <span>Dopo</span>\r
           </div>\r
         </div>\r
 \r
         <div class="before-after-pair">\r
           <div class="before">\r
-            <img src="/img/Verniciature_Speciali.jpg" alt="Before kitchen">\r
+            <img src="img/Verniciature_Speciali.jpg" alt="Before kitchen">\r
             <span>Prima</span>\r
           </div>\r
           <div class="after">\r
-            <img src="/img/Verniciature_Speciali.jpg" alt="After kitchen">\r
+            <img src="img/Verniciature_Speciali.jpg" alt="After kitchen">\r
             <span>Dopo</span>\r
           </div>\r
         </div>\r
@@ -294,27 +294,27 @@
 \r
       <div class="masonry-grid">\r
         <div class="masonry-item">\r
-          <img src="/img/BackgroundFight.png" alt="Effetto decorativo completato">\r
+          <img src="img/BackgroundFight.png" alt="Effetto decorativo completato">\r
           <p>Parete in stile spatolato, tonalità neutre.</p>\r
         </div>\r
 \r
         <div class="masonry-item">\r
-          <img src="/img/Carta_Parati.jpg" alt="Lavori in corso">\r
+          <img src="img/Carta_Parati.jpg" alt="Lavori in corso">\r
           <!-- no caption -->\r
         </div>\r
 \r
         <div class="masonry-item">\r
-          <img src="/img/Restyling.webp" alt="Dettaglio carta da parati">\r
+          <img src="img/Restyling.webp" alt="Dettaglio carta da parati">\r
           <p>Applicazione wallpaper geometrico in soggiorno moderno.</p>\r
         </div>\r
 \r
         <div class="masonry-item">\r
-          <img src="/img/Verniciature_Speciali.jpg" alt="Finitura metallo">\r
+          <img src="img/Verniciature_Speciali.jpg" alt="Finitura metallo">\r
           <!-- no caption -->\r
         </div>\r
 \r
         <div class="masonry-item">\r
-          <img src="/img/Decorline Logo Design.png" alt="Attrezzi da lavoro">\r
+          <img src="img/Decorline Logo Design.png" alt="Attrezzi da lavoro">\r
           <p>Strumenti preparati prima dell’intervento.</p>\r
         </div>\r
 \r
