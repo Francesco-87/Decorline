@@ -30,32 +30,32 @@
                     <div class="service-wrapper">\r
                         <div class="service-item">\r
                             <h3>Tinteggiatura d’Interni ed Esterni</h3>                      \r
-                            <img src="./resources/img/Tinteggiatura.webp" alt="Tinteggiatura" class="service-icon">\r
+                            <img src="/img/Tinteggiatura.webp" alt="Tinteggiatura" class="service-icon">\r
                             <p>Muri, soffitti e facciate con finiture di qualità professionale.</p>\r
                         </div>                  \r
                         <div class="service-item">\r
                             <h3>Pareti Personalizzate su Misura</h3>\r
-                            <img src="./resources/img/Pareti_Personalizzate.jpg" alt="Pareti Personalizzate" class="service-icon">\r
+                            <img src="/img/Pareti_Personalizzate.jpg" alt="Pareti Personalizzate" class="service-icon">\r
                             <p>Soluzioni creative e su progetto: loghi, motivi, scritte, effetti visivi unici.</p>\r
                         </div> \r
                         <div class="service-item">\r
                             <h3>Decorazioni Murali Artistiche</h3>\r
-                            <img src="./resources/img/Decorazioni_Murali.jpg" alt="Decorazioni Murali Artistiche" class="service-icon">\r
+                            <img src="/img/Decorazioni_Murali.jpg" alt="Decorazioni Murali Artistiche" class="service-icon">\r
                             <p>Tecniche decorative come spatolato, stucco veneziano, velature e molto altro.</p>\r
                         </div> \r
                         <div class="service-item">\r
                             <h3>Carta da Parati e Rivestimenti</h3>\r
-                            <img src="./resources/img/Carta_Parati.jpg" alt="Carta da Parati e Rivestimenti" class="service-icon">\r
+                            <img src="/img/Carta_Parati.jpg" alt="Carta da Parati e Rivestimenti" class="service-icon">\r
                             <p>Applicazione precisa di wallpaper classici, moderni e di design personalizzato.</p>\r
                         </div> \r
                         <div class="service-item">\r
                             <h3>Verniciature Speciali</h3>\r
-                            <img src="./resources/img/Verniciature_Speciali.jpg" alt="Verniciature Speciali" class="service-icon">\r
+                            <img src="/img/Verniciature_Speciali.jpg" alt="Verniciature Speciali" class="service-icon">\r
                             <p>Trattamenti per legno, metallo, mobili e superfici particolari.</p>\r
                         </div> \r
                         <div class="service-item">\r
                             <h3>Restyling e Rinnovo Ambienti</h3>\r
-                            <img src="./resources/img/Restyling.webp" alt="Restyling e Rinnovo Ambienti" class="service-icon">\r
+                            <img src="/img/Restyling.webp" alt="Restyling e Rinnovo Ambienti" class="service-icon">\r
                             <p>Rinfresco e restauro estetico di spazi vissuti o da rinnovare.</p>\r
                         </div> \r
                     </div>\r
