@@ -2,16 +2,15 @@ import { defineConfig } from 'vite'
 import path from 'path'
 
 export default defineConfig({
-  root: 'src',    
-  publicDir: '../public',       // serve/build from src/
+  root: 'src',
+  base: './',               // leave this in place
+  publicDir: '../public',   // point to the public/ folder at repo root
   build: {
-    outDir: '../docs',   // emit into docs/
-    emptyOutDir: true,   // clear docs/ first
-    assetsDir: 'resources' // put JS/CSS/IMG under docs/resources/
+    outDir: '../docs',
+    emptyOutDir: true,
+    assetsDir: 'resources'
   },
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, 'src')
-    }
+    alias: { '@': path.resolve(__dirname, 'src') }
   }
 })
