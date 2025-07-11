@@ -365,13 +365,46 @@
     </div>\r
 \r
     <!-- Contact Form -->\r
-    <form class="contact-form">\r
-      <input type="text" name="name" placeholder="Il tuo nome" required>\r
-      <input type="email" name="email" placeholder="La tua email" required>\r
-      <input type="text" name="subject" placeholder="Oggetto" required>\r
-      <textarea name="message" rows="5" placeholder="Messaggio" required></textarea>\r
-      <button type="submit">Invia Messaggio</button>\r
-    </form>\r
+    <form class="contact-form"\r
+      action="https://formspree.io/f/your-form-id"\r
+      method="POST"\r
+      autocomplete="off">\r
+\r
+  <input type="text"\r
+         name="name"\r
+         placeholder="Il tuo nome"\r
+         required\r
+         minlength="2"\r
+         maxlength="50"\r
+         spellcheck="false"\r
+         autocomplete="off">\r
+\r
+  <input type="email"\r
+         name="email"\r
+         placeholder="La tua email"\r
+         required\r
+         autocomplete="off">\r
+\r
+  <input type="text"\r
+         name="subject"\r
+         placeholder="Oggetto"\r
+         required\r
+         minlength="3"\r
+         maxlength="100"\r
+         spellcheck="false"\r
+         autocomplete="off">\r
+\r
+  <textarea name="message"\r
+            rows="5"\r
+            placeholder="Messaggio"\r
+            required\r
+            minlength="10"\r
+            maxlength="1000"\r
+            autocomplete="off"></textarea>\r
+\r
+  <button type="submit">Invia Messaggio</button>\r
+</form>\r
+\r
   </div>\r
 </section>\r
 `,g={home:l,about:d,products:p,gallery:m,testimonials:v,contact:u},o=document.getElementById("main-content");function c(n){o.innerHTML=g[n]||`<p style="padding:2rem;color:red">
